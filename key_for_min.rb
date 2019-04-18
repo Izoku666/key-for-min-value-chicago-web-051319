@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   
-  minValue = 0
+  minValue = 100
   a = ""
   name_hash.collect do |name , value|
     
