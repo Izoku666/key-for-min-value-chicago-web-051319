@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   if name_hash == nil
     break
-  
+  end
   minValue = 1000
   a = ""
   name_hash.collect do |name , value|
