@@ -3,12 +3,12 @@
 
 def key_for_min_value(name_hash)
   
-  highVal = 0
+  minValue = 0
   a = ""
   name_hash.collect do |name , value|
     
-    if value > highVal
-      highVal = value
+    if value < minValue
+      minValue = value
       a = name
     end
   end
