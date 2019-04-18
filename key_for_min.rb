@@ -4,13 +4,15 @@
 def key_for_min_value(name_hash)
   
   highVal = 0
+  a = ""
   name_hash.collect do |name , value|
     
     if value > highVal
       highVal = value
+      a = name
     end
-  
-    
   end
+  
+  return a
 
 end
